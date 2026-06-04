@@ -1,0 +1,93 @@
+.topbar {
+    position: fixed; 
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 65%;
+    min-width: 608px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+
+    color: #1a1a1a;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border-radius: 999px;
+
+    backdrop-filter: blur(12px);
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,0.25),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+
+    display: flex;
+    align-items: center;     
+
+    gap: 30px;
+    z-index: 1000;
+
+
+    transition:
+        transform 0.15s ease,
+        opacity 0.15s ease;
+}
+
+.topbar.hidden {
+    transform: translateX(-50%) translateY(-150%);
+}
+
+.topbar.transparent {
+    opacity: 0.6;
+    backdrop-filter: blur(12px);
+}
+
+.topbar.visible {
+    opacity: 1;
+}
+
+.topbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+    margin: 0;
+    padding: 0;        
+}
+
+.topbar li {
+    display: inline-block;
+}
+
+.topbar a {
+    font-family: 'Inter', sans-serif;
+    color: #2a2a2a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+
+    transition: color 0.3s ease;
+}
+
+.topbar a:hover {
+    color: #B8502E;
+}
+
+.navegacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topbar__imagen {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}

@@ -1,0 +1,88 @@
+
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    background: #F5F1EA;
+    color: #2a2a2a;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+}
+
+.about {
+    min-height: calc(100vh - 100px);
+    background: #F5F1EA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+
+.about-content {
+    width: 55%;
+}
+
+.about-name {
+    font-size: 20vh;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: -1.5rem;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 700px;
+}
+
+
+.about-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 90%;
+}
+
+
+.about::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+
+    left:0%;
+    transform: translateX(-50%);
+
+    width: 80%;
+    height: 2px;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #B8502E,
+        transparent
+    );
+}
+
+.skills {
+    background: #F5F1EA;
+}
+
+.projects {
+    background: #EFEAE0;
+}
+
+.contact {
+    background: #F5F1EA;
+}
