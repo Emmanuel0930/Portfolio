@@ -1,0 +1,32 @@
+[
+    {
+        "title": "AWS Practitioner",
+        "description": "AWS Cloud Fundamentals",
+        "image": "assets/certs/aws.png",
+        "url": "assets/certs/aws.pdf"
+    },
+    {
+        "title": "React Developer",
+        "description": "React Modern Development",
+        "image": "assets/certs/react.png",
+        "url": "assets/certs/react.pdf"
+    },
+    {
+        "title": "AWS Practitioner",
+        "description": "AWS Cloud Fundamentals",
+        "image": "assets/certs/aws.png",
+        "url": "assets/certs/aws.pdf"
+    },
+    {
+        "title": "AWS Practitioner",
+        "description": "AWS Cloud Fundamentals",
+        "image": "assets/certs/aws.png",
+        "url": "assets/certs/aws.pdf"
+    },
+    {
+        "title": "AWS Practitioner",
+        "description": "AWS Cloud Fundamentals",
+        "image": "assets/certs/aws.png",
+        "url": "assets/certs/aws.pdf"
+    }
+]

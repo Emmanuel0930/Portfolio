@@ -1,8 +1,8 @@
-const link = document.createElement('link');
-link.rel = 'stylesheet';
-link.href = 'topbar/topbar.css';
+const topbarLink = document.createElement('link');
+topbarLink.rel = 'stylesheet';
+topbarLink.href = 'topbar/topbar.css';
 
-document.head.appendChild(link);
+document.head.appendChild(topbarLink);
 
 fetch('topbar/topbar.html')
     .then(response => response.text())

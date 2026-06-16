@@ -34,13 +34,6 @@ body {
     margin-top: -1.5rem;
 }
 
-.about-description {
-    font-size: 1.2rem;
-    line-height: 1.8;
-    max-width: 700px;
-}
-
-
 .about-image {
     width: 45%;
     display: flex;
@@ -75,6 +68,95 @@ body {
     );
 }
 
+.about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-left {
+    width: 450px;
+    flex-shrink: 0;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-location {
+    line-height: 1.8;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: 2000;
+    margin-left: -4rem;
+}
+
+.about-map iframe {
+    
+    margin-left: 2rem; 
+    width: 110%;
+    height: 250px;
+    border: none;
+    border-radius: 12px;
+}
+
+.education-card {
+    
+    margin-left: 4rem;
+
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.education-card img {
+    width: 60px;
+    height: auto;
+}
+
+.education-info h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.education-info p {
+    margin: 0.3rem 0 0;
+    color: #666;
+}
+
+.certificates-link {
+    
+    margin-top: -1rem;
+    margin-left: 4rem;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 1rem 7rem;
+
+    text-align: center;
+    transition: 0.3s;
+}
+
+.certificates-link:hover {
+    transform: translateY(-2px);
+}
+
+.certificates-link a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+
+
 .skills {
     background: #F5F1EA;
 }
@@ -85,4 +167,9 @@ body {
 
 .contact {
     background: #F5F1EA;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
