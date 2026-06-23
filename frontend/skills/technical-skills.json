@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Python",
+        "image": "img/python.svg"
+    },
+    {
+        "name": "Java",
+        "image": "img/java.svg"
+    },
+    {
+        "name": "JavaScript",
+        "image": "img/JavaScript.svg"
+    },
+    {
+        "name": "C++",
+        "image": "img/c++.svg"
+    },
+    {
+        "name": "FastAPI",
+        "image": "img/FastAPI.svg"
+    },
+    {
+        "name": "Django",
+        "image": "img/Django.svg"
+    },
+    {
+        "name": "Flask",
+        "image": "img/Flask.svg"
+    },
+    {
+        "name": "Node.js",
+        "image": "img/Nodejs.svg"
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "img/PostgreSQL.svg"
+    },
+
+    {
+        "name": "MySQL",
+        "image": "img/MySQL.svg"
+    },
+    {
+        "name": "MongoDB",
+        "image": "img/MongoDB.svg"
+    },
+    {
+        "name": "PyTorch",
+        "image": "img/PyTorch.svg"
+    },
+    {
+        "name": "TensorFlow",
+        "image": "img/TensorFlow.svg"
+    },
+    {
+        "name": "Docker",
+        "image": "img/Docker.svg"
+    },
+    {
+        "name": "Git",
+        "image": "img/Git.svg"
+    },
+    {
+        "name": "AWS",
+        "image": "img/AWS.svg"
+    }
+]

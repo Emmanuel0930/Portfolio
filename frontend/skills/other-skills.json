@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Spanish",
+        "image": "img/Spanish.svg"
+    },
+    {
+        "name": "English",
+        "image": "img/English.svg"
+    },
+    {
+        "name": "Problem Solving",
+        "image": "img/problem-solving.svg"
+    },
+    {
+        "name": "Critical Thinking",
+        "image": "img/critical-thinking.svg"
+    },
+    {
+        "name": "Self Learning",
+        "image": "img/self-learning.svg"
+    },
+    {
+        "name": "Continuous Learning",
+        "image": "img/continuous-learning.svg"
+    },
+    {
+        "name": "Teamwork",
+        "image": "img/teamwork.svg"
+    },
+    {
+        "name": "Communication",
+        "image": "img/communication.svg"
+    },
+    {
+        "name": "Responsability",
+        "image": "img/responsability.svg"
+    },
+    {
+        "name": "Adaptability",
+        "image": "img/adaptability.svg"
+    }
+]
