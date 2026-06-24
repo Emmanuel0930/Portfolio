@@ -1,11 +1,13 @@
 [
     {
         "name": "Spanish",
-        "image": "img/Spanish.svg"
+        "image": "img/Spanish.svg",
+        "scale": 1
     },
     {
         "name": "English",
-        "image": "img/English.svg"
+        "image": "img/English.svg",
+        "scale": 1
     },
     {
         "name": "Problem Solving",

@@ -41,14 +41,19 @@ async function loadSkills(jsonPath, containerId) {
 
     skills.forEach(skill => {
 
-        const card =
-            document.createElement('div');
+        const card = document.createElement('div');
 
         card.className = 'skill-card';
 
+        const scale = skill.scale || 0.7;
+
         card.innerHTML = `
             <div class="skill-image">
-                <img src="${skill.image}" alt="${skill.name}">
+                <img
+                    src="${skill.image}"
+                    alt="${skill.name}"
+                    style="transform: scale(${scale});"
+                >
             </div>
 
             <span class="skill-name">
