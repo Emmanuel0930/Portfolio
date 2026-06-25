@@ -1,0 +1,43 @@
+[
+    {
+        "title":"Project One",
+        "image":"img/projects/project1.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "scale":1
+    },
+    {
+        "title":"Project Two",
+        "image":"img/projects/project2.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title":"Project Three",
+        "image":"img/projects/project3.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title":"Project Four",
+        "image":"img/projects/project4.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title":"Project Five",
+        "image":"img/projects/project5.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title":"Project Six",
+        "image":"img/projects/project6.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title":"Project Seven",
+        "image":"img/projects/project7.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+        "title":"Project Eight",
+        "image":"img/projects/project8.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+]
