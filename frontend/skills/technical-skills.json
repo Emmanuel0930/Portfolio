@@ -9,7 +9,8 @@
     },
     {
         "name": "JavaScript",
-        "image": "img/JavaScript.svg"
+        "image": "img/JavaScript.svg",
+        "scale": 1.05
     },
     {
         "name": "C++",
@@ -17,7 +18,8 @@
     },
     {
         "name": "FastAPI",
-        "image": "img/FastAPI.svg"
+        "image": "img/FastAPI.svg",
+        "scale": 1
     },
     {
         "name": "Django",

@@ -165,6 +165,138 @@ body {
 
 .contact {
     background: #F5F1EA;
+    padding: 2rem 2rem;
+}
+
+
+.contact-container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    padding: 3rem 2rem;
+
+    text-align: center;
+    
+}
+
+.availability-badge {
+  display: inline-block;
+
+  padding: 0.75rem 1.5rem;
+
+  border-radius: 999px;
+
+  border: 1px solid rgba(184, 80, 46, 0.2);
+
+  color: #B8502E;
+
+  background: rgba(184, 80, 46, 0.08);
+
+  font-size: 0.95rem;
+  font-weight: 500;
+
+  margin-bottom: 2rem;
+}
+
+.contact-title {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 800;
+
+  line-height: 1.05;
+
+  color: #050816;
+
+  max-width: 1100px;
+
+  margin: 0 auto 2rem;
+}
+
+.contact-title span {
+  background: linear-gradient(
+    90deg,
+    #B8502E,
+    #D97A4E,
+    #E8A87C
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-description {
+  max-width: 700px;
+
+  margin: 0 auto 3rem;
+
+  font-size: 1.35rem;
+  line-height: 1.7;
+
+  color: #667085;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem 2rem;
+
+  border-radius: 999px;
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+
+    gap: 0.3rem;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    135deg,
+    #B8502E,
+    #C96A46
+  );
+
+  color: white;
+
+  box-shadow:
+    0 12px 30px rgba(184, 80, 46, 0.25);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+}
+
+.btn-secondary {
+  background: transparent;
+
+  color: #2c2c2c;
+
+  border: 1px solid rgba(184, 80, 46, 0.2);
+}
+
+.btn-secondary:hover {
+  background: rgba(184, 80, 46, 0.05);
+
+  transform: translateY(-3px);
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  
 }
 
 
