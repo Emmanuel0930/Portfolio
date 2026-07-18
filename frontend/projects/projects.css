@@ -5,12 +5,11 @@
     display:flex;
 
     justify-content:center;
-
 }
 
 .projects-container{
 
-    width:90%;
+    width:85%;
 
     max-width:1400px;
 
@@ -51,7 +50,7 @@
 
     display:grid;
 
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(2,1fr);
 
     grid-template-rows:repeat(2,1fr);
 
