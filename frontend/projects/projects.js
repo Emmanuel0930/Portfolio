@@ -19,7 +19,7 @@ let projects = [];
 
 let currentPage = 0;
 
-const projectsPerPage = 6;
+const projectsPerPage = 4;
 
 async function startProjects(){
 
@@ -78,14 +78,21 @@ function renderProjects(){
                 ${project.description}
 
             </div>
-
-            <button class="project-button">
-
-                Ver más
-
-            </button>
-
         `;
+
+        const button = document.createElement("button");
+
+        button.className = "project-button";
+
+        button.textContent = "Show more";
+
+        button.addEventListener("click", () => {
+        
+            openProject(project);
+        
+        });
+
+        card.appendChild(button);
 
         grid.appendChild(card);
 

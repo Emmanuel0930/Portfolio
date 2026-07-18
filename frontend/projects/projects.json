@@ -1,43 +1,44 @@
 [
     {
-        "title":"Project One",
+        "title":"Inmofinder",
         "image":"img/projects/project1.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "scale":1
     },
     {
-        "title":"Project Two",
-        "image":"img/projects/project2.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "title":"MCDM Project",
+        "image":"img/projects/MCDM.png",
+        "description":"Engineered a robust Multi-Criteria Decision-Making (MCDM) platform to identify the optimal location for a wind farm in Colombia by evaluating multiple criteria, including wind potential,  infrastructure, and armed conflict. The project combines expert judgment with algorithm-driven weighting methods to deliver data-driven decision support for complex scenarios.",
+        "longDescription":"This project was developed by a team of five as part of a larger research initiative involving university professors and an industry partner. Our goal was to contribute a decision-support algorithm capable of identifying the most suitable locations for wind farm development in Colombia by considering multiple technical, environmental, social, and economic criteria.\n\nThroughout the project, we faced several engineering challenges beyond the decision-making model itself. One of the first was finding an efficient spatial representation of the country, which led us to adopt the H3 hexagonal indexing system. As the dataset grew, memory consumption became a significant bottleneck, so we redesigned the processing pipeline to execute computations in chunks, allowing the algorithm to scale without exhausting system resources.\n\nAfter reviewing and comparing multiple research papers on Multi-Criteria Decision-Making (MCDM), we designed a hybrid methodology combining the Best-Worst Method (BWM) to determine criteria weights from both expert knowledge and algorithmic analysis, with the PROMETHEE ranking method to evaluate every H3 cell across Colombia. This approach successfully highlighted the most promising areas while reducing visual noise from less suitable alternatives, making the results easier to interpret and analyze.\n\nDue to confidentiality agreements, the repository uses a synthetic dataset instead of the real project data. However, the sample data was carefully generated to reflect realistic geographic and territorial conditions, allowing the methodology and software architecture to be demonstrated without exposing sensitive information.\n\nBeyond implementing the algorithms, this project strengthened my experience in geospatial computing, optimization, scientific research, and collaborative software development, while demonstrating how data-driven decision-making can support complex real-world infrastructure planning.",
+        "scale":1,
+        "images": [
+            "img/projects/MCDM.png",
+            "img/projects/MCDM2.png",
+            "img/projects/MCDM3.png",
+            "img/projects/MCDM4.png"
+        ],
+        "tags": [
+            "Python",
+            "Scikit-learn",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "FastAPI",
+            "Uvicorn",
+            "Pydantic",
+            "h3",
+            "Leaflet"
+        ],
+        "github":"https://github.com/Emmanuel0930/Multi-Criteria-Decision-Making-Proyect/wiki/Sprint-0"
     },
     {
-        "title":"Project Three",
+        "title":"Nextstep",
         "image":"img/projects/project3.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
-        "title":"Project Four",
+        "title":"PIBL",
         "image":"img/projects/project4.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Project Five",
-        "image":"img/projects/project5.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Project Six",
-        "image":"img/projects/project6.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Project Seven",
-        "image":"img/projects/project7.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"Project Eight",
-        "image":"img/projects/project8.png",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
 ]
