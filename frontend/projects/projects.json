@@ -1,9 +1,29 @@
 [
     {
         "title":"Inmofinder",
-        "image":"img/projects/project1.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "scale":1
+        "image":"img/projects/Inmofinder1.png",
+        "description":"InmoFinder is an AI-powered real estate aggregation platform built by a team of four developers. It centralizes property listings from multiple websites into a single platform using web scraping to extract structured data, including property features, pricing, and images, making home searching faster and more efficient.",
+        "longDescription":"InmoFinder is a collaborative project developed by a team of four engineering students with the goal of simplifying the real estate search experience in Medellín. Instead of browsing multiple property websites, users can access a centralized platform that aggregates listings from different sources, providing a faster and more convenient way to discover available homes.\n\nOne of the project's core innovations was the integration of AI-assisted web scraping to collect and structure real estate data from multiple websites. The system automatically extracts valuable information such as price, location, number of bedrooms, bathrooms, parking spaces, property descriptions, and images, transforming unstructured web content into consistent, searchable data.\n\nBeyond building the platform itself, the project required designing a scalable data collection workflow, handling information from different sources, and ensuring that property details remained organized and accessible. Working as part of a multidisciplinary team also strengthened our collaboration, software architecture, and problem-solving skills while delivering a solution that demonstrates how AI can enhance data acquisition and improve user experience in the real estate industry.",
+        "scale":1,
+        "images":[
+            "img/projects/Inmofinder1.png",
+            "img/projects/Inmofinder2.png",
+            "img/projects/Inmofinder3.png",
+            "img/projects/Inmofinder4.png",
+            "img/projects/Inmofinder5.png"
+        ],
+        "tags":[
+            "Python",
+            "Django",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SQLite",
+            "sentence-transformers",
+            "scikit-learn"
+        ],
+        "github":"https://github.com/Alejoarteaga17/InmoFinder"
+
     },
     {
         "title":"MCDM Project",
@@ -33,12 +53,27 @@
     },
     {
         "title":"Nextstep",
-        "image":"img/projects/project3.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-        "title":"PIBL",
-        "image":"img/projects/project4.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "image":"img/projects/Nextstep1.png",
+        "description":"NextStep is a gamified career platform developed by a team of four for a Magneto Empleos innovation challenge. The solution increases user engagement and profile completion through achievements, rewards, personalized notifications, and an AI-powered career assistant that supports users throughout their job search journey.",
+        "longDescription":"NextStep was developed by a team of four engineering students as a solution to a real-world innovation challenge proposed by Magneto Empleos. The objective was to increase user Lifetime Value (LTV) by encouraging job seekers to engage more actively with the platform and complete their professional profiles, enabling more accurate candidate-to-company matching.\n\nOur approach combined gamification principles with user-centered design to transform profile completion into a rewarding experience. We implemented an achievement system with badges, progress tracking, and personalized notifications that motivated users to remain active and continuously improve their profiles instead of interacting with the platform only when searching for jobs.\n\nTo further enhance the experience, we developed Jobbie, an AI-powered career assistant designed to guide users throughout their employability journey. From answering career-related questions to encouraging profile optimization and platform engagement, Jobbie complemented the gamification strategy by providing personalized support. The project demonstrated how combining behavioral design, AI, and modern web technologies can improve user retention while creating greater value for both job seekers and recruiters.",
+        "scale":1,
+        "images": [
+            "img/projects/Nextstep1.png",
+            "img/projects/Nextstep2.png",
+            "img/projects/Nextstep3.png",
+            "img/projects/Nextstep4.png",
+            "img/projects/Nextstep5.png"
+        ],
+        "tags":[
+            "React",
+            "JavaScript",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Mongoose",
+            "Groq API"
+        ],
+        "github":"https://github.com/Emmanuel0930/NextStep"
     }
 ]
