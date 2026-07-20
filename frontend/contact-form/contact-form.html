@@ -25,6 +25,7 @@
                         <input
                             type="text"
                             id="contactName"
+                            name="name"
                             placeholder="Your name"
                             required
                         >
@@ -36,6 +37,7 @@
                         <input
                             type="email"
                             id="contactEmail"
+                            name="email"
                             placeholder="your@email.com"
                             required
                         >
@@ -47,6 +49,7 @@
                         <input
                             type="text"
                             id="contactSubject"
+                            name="subject"
                             placeholder="What's this about?"
                             required
                         >
@@ -61,6 +64,7 @@
                     
                         <textarea
                             id="contactMessage"
+                            name="message"
                             rows="6"
                             placeholder="Tell me more..."
                             required
@@ -77,6 +81,20 @@
             </button>
 
         </form>
+
+    </div>
+
+</div>
+
+<div id="toast" class="toast">
+
+    <div class="toast-icon"></div>
+
+    <div class="toast-content">
+
+        <div id="toastTitle" class="toast-title"></div>
+
+        <div id="toastMessage" class="toast-message"></div>
 
     </div>
 

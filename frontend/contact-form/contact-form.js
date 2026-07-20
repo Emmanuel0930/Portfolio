@@ -53,9 +53,44 @@ function startContactForm() {
         .addEventListener('submit', submitForm);
 }
 
+function showToast(title, message, type = 'success') {
+
+    const toast =
+        document.getElementById('toast');
+
+    const icon =
+        toast.querySelector('.toast-icon');
+
+    document.getElementById('toastTitle').textContent =
+        title;
+
+    document.getElementById('toastMessage').textContent =
+        message;
+
+    icon.textContent =
+        type === 'success'
+            ? '✓'
+            : '✕';
+
+    toast.className =
+        `toast ${type} show`;
+
+    setTimeout(() => {
+
+        toast.classList.remove('show');
+
+    }, 4000);
+}
+
 async function submitForm(e) {
 
     e.preventDefault();
+
+    const button =
+        document.querySelector('.send-btn');
+
+    button.disabled = true;
+    button.textContent = 'Sending...';
 
     const payload = {
 
@@ -72,20 +107,42 @@ async function submitForm(e) {
             document.getElementById('contactMessage').value
     };
 
-    console.log(payload);
+    try {
 
-    /*
-    Endpoint futuro
+        await emailjs.send(
 
-    await fetch('/api/contact', {
+            'default_service',
+            'template_eg02ie6',
+            payload
 
-        method: 'POST',
+        );
 
-        headers: {
-            'Content-Type': 'application/json'
-        },
+        showToast(
+            'Your message has been sent successfully!',
+        );
 
-        body: JSON.stringify(payload)
-    });
-    */
+        document
+            .getElementById('contactForm')
+            .reset();
+
+        document
+            .getElementById('contactModal')
+            .classList.remove('active');
+
+    }
+    catch (error) {
+
+        console.error(error);
+
+        showToast(
+            'Something went wrong. Please try again.',
+            'error'
+        );
+    }
+
+    finally {
+
+        button.disabled = false;
+        button.textContent = 'Send Message';
+    }
 }
