@@ -5,62 +5,62 @@
     },
     {
         "name": "Java",
-        "image": "img/java.svg"
+        "image": "img/Java.svg"
     },
     {
         "name": "JavaScript",
-        "image": "img/JavaScript.svg",
+        "image": "img/javaScript.svg",
         "scale": 1.05
     },
     {
         "name": "C++",
-        "image": "img/c++.svg"
+        "image": "img/C++.svg"
     },
     {
         "name": "FastAPI",
-        "image": "img/FastAPI.svg",
+        "image": "img/fastAPI.svg",
         "scale": 1
     },
     {
         "name": "Django",
-        "image": "img/Django.svg"
+        "image": "img/django.svg"
     },
     {
         "name": "Flask",
-        "image": "img/Flask.svg"
+        "image": "img/flask.svg"
     },
     {
         "name": "Node.js",
-        "image": "img/Nodejs.svg"
+        "image": "img/nodejs.svg"
     },
     {
         "name": "PostgreSQL",
-        "image": "img/PostgreSQL.svg"
+        "image": "img/postgreSQL.svg"
     },
 
     {
         "name": "MySQL",
-        "image": "img/MySQL.svg"
+        "image": "img/mySQL.svg"
     },
     {
         "name": "MongoDB",
-        "image": "img/MongoDB.svg"
+        "image": "img/mongoDB.svg"
     },
     {
         "name": "PyTorch",
-        "image": "img/PyTorch.svg"
+        "image": "img/pytorch.svg"
     },
     {
         "name": "TensorFlow",
-        "image": "img/TensorFlow.svg"
+        "image": "img/tensorflow.svg"
     },
     {
         "name": "Docker",
-        "image": "img/Docker.svg"
+        "image": "img/docker.svg"
     },
     {
         "name": "Git",
-        "image": "img/Git.svg"
+        "image": "img/git.svg"
     },
     {
         "name": "AWS",
