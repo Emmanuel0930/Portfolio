@@ -13,6 +13,14 @@
 
 <body>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+        emailjs.init({
+            publicKey: "1K0D6yAIFUztXibDL",
+        });
+    </script>
+
     <div id="topbar-container">
         <script src="topbar/topbar.js"></script>
     </div>
@@ -115,7 +123,6 @@
                     id="open-contact-form"
                     class="btn btn-primary"
                 >
-                    <script src="contact-form/contact-form.js"></script>
                   ✉ Get in Touch
                 </a>
                 <div id="contact-form-container">
