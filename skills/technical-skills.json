@@ -9,7 +9,7 @@
     },
     {
         "name": "JavaScript",
-        "image": "img/javaScript.svg",
+        "image": "img/javascript.svg",
         "scale": 1.05
     },
     {
@@ -18,7 +18,7 @@
     },
     {
         "name": "FastAPI",
-        "image": "img/fastAPI.svg",
+        "image": "img/fastapi.svg",
         "scale": 1
     },
     {
@@ -35,16 +35,16 @@
     },
     {
         "name": "PostgreSQL",
-        "image": "img/postgreSQL.svg"
+        "image": "img/postgresql.svg"
     },
 
     {
         "name": "MySQL",
-        "image": "img/mySQL.svg"
+        "image": "img/mysql.svg"
     },
     {
         "name": "MongoDB",
-        "image": "img/mongoDB.svg"
+        "image": "img/mongodb.svg"
     },
     {
         "name": "PyTorch",
