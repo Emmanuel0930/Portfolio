@@ -304,3 +304,163 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
+/* ==========================================================
+   RESPONSIVE
+   Todo lo de arriba se queda igual (vista de escritorio).
+   Estas reglas solo se activan en pantallas más pequeñas.
+   ========================================================== */
+
+/* ---------- Tablets / laptops pequeños ---------- */
+@media (max-width: 1024px) {
+
+    .about {
+        padding: 0 5%;
+    }
+
+    .about-content {
+        width: 60%;
+    }
+
+    .about-name {
+        font-size: 13vh;
+    }
+
+    .about-image {
+        width: 40%;
+    }
+
+    .about-image img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .aboutExtended {
+        padding: 0 5%;
+    }
+
+    .about-left {
+        width: 340px;
+        margin-right: 1.5rem;
+    }
+
+    .about-description {
+        max-width: 480px;
+    }
+
+    .certificates-link {
+        padding: 1rem 3rem;
+    }
+}
+
+/* ---------- Tablets verticales / móviles grandes: apilar ---------- */
+@media (max-width: 860px) {
+
+    .about {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        min-height: auto;
+        padding: 2.5rem 6% 3rem;
+        gap: 2rem;
+    }
+
+    .about::after {
+        display: none;
+    }
+
+    .about-content,
+    .about-image {
+        width: 100%;
+    }
+
+    .about-name {
+        font-size: 16vw;
+        margin-top: 0;
+    }
+
+    .about-image img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .aboutExtended {
+        flex-direction: column;
+        padding: 2.5rem 6%;
+        gap: 2rem;
+    }
+
+    .about-left {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .about-description {
+        margin-left: 0;
+        margin-top: 0;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .certificates-link {
+        padding: 1rem 2rem;
+    }
+}
+
+/* ---------- Móviles ---------- */
+@media (max-width: 480px) {
+
+    body {
+        padding-top: 80px;
+    }
+
+    .about {
+        padding: 2rem 6% 2.5rem;
+    }
+
+    .about-name {
+        font-size: 19vw;
+    }
+
+    .about-content p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .about-image img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .about-description {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .about-location {
+        font-size: 1rem;
+    }
+
+    .about-map iframe {
+        height: 180px;
+    }
+
+    .education-card {
+        padding: 0.8rem;
+        gap: 0.75rem;
+    }
+
+    .education-card img {
+        width: 45px;
+    }
+
+    .education-info h4 {
+        font-size: 0.9rem;
+    }
+
+    .certificates-link {
+        padding: 0.8rem 1rem;
+    }
+}
