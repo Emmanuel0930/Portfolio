@@ -18,6 +18,14 @@ function startTopbar() {
     let upwardDistance = 0;
 
     const navbar = document.querySelector('.topbar');
+    const menuButton = document.querySelector(".menu-toggle");
+    const navigation = document.querySelector(".navegacion");
+
+    menuButton.addEventListener("click", () => {
+
+        navigation.classList.toggle("active");
+
+    });
 
     window.addEventListener('scroll', () => {
         const currentScroll = window.pageYOffset;
@@ -25,6 +33,7 @@ function startTopbar() {
         // Bajando
         if (currentScroll > lastScroll) {
             navbar.classList.add('hidden');
+            navigation.classList.remove('active'); 
             upwardDistance = 0;
         }
         // Subiendo
@@ -43,5 +52,15 @@ function startTopbar() {
         }
 
         lastScroll = currentScroll;
+    });
+
+    document.querySelectorAll(".navegacion a").forEach(link=>{
+
+    link.addEventListener("click",()=>{
+        
+            navigation.classList.remove("active");
+        
+        });
+    
     });
 }
